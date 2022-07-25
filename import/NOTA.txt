@@ -1,0 +1,11 @@
+Para probar el diseño tiene que tener instalado liver serve y correr el 
+proyecto como si fuera en el servidor... 
+
+caso contrario para su correcta fución quitar [ onclick="navigateUrl('ruta...','home')"
+en todos en donde se llama.
+y descomentar los código comentados a la cabecera y pieda de cada archivo html respectivamente.
+
+
+para ver editar-producto dar click en editar del primer producto.
+
+otro dato en icon bars en el header o cabecera menu amburguesa.. 

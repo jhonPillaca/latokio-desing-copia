@@ -1,0 +1,299 @@
+main {
+  position: relative;
+  top: 60px;
+  padding-bottom: 9rem;
+  background: #e9ecef; }
+  main header {
+    border-radius: 0 0 40px 40px;
+    position: inherit;
+    z-index: 0; }
+    main header article {
+      text-align: center;
+      color: #fff; }
+      main header article h2 {
+        margin: 0;
+        padding: 10px 0; }
+  main .container section {
+    position: relative;
+    top: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem; }
+    main .container section .card {
+      display: flex;
+      flex-direction: row;
+      background: radial-gradient(magenta -200%, #7857fa 40%);
+      justify-content: end;
+      align-items: center;
+      height: 100%;
+      min-height: 220px;
+      max-height: 500px;
+      border-radius: 25px;
+      box-shadow: -5px 5px 5px 0px #818185c7; }
+      main .container section .card figure {
+        width: 60%;
+        margin: 0;
+        padding-top: 25%; }
+      main .container section .card .descript {
+        display: flex;
+        flex-direction: column;
+        color: #fff;
+        padding: 4% 0 4% 4%;
+        width: 100%;
+        position: absolute; }
+        main .container section .card .descript h1 {
+          font-size: 2.8pc;
+          text-transform: uppercase; }
+        main .container section .card .descript h2 {
+          font-size: 2pc;
+          text-transform: uppercase;
+          color: #c6bbf7; }
+        main .container section .card .descript h3 {
+          font-size: 1.5pc;
+          text-transform: uppercase; }
+        main .container section .card .descript h5 {
+          font-size: 1.5pc; }
+        main .container section .card .descript a {
+          padding: 5px;
+          background: #c6bbf7;
+          color: #fff;
+          border-radius: 15px;
+          width: 110px;
+          font-size: 12px;
+          text-align: center;
+          margin: 10px 0;
+          cursor: pointer;
+          transition: background linear 1s; }
+          main .container section .card .descript a:hover {
+            background: #00000099; }
+    main .container section .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between; }
+    main .container section .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+      grid-auto-rows: auto;
+      gap: 10px; }
+      main .container section .cards .card {
+        background: #dee2e6;
+        padding: 10px;
+        min-height: auto;
+        box-shadow: none;
+        border-radius: 5px;
+        border: none; }
+        main .container section .cards .card .detalle h5 {
+          color: #1b225b;
+          margin-bottom: 15px; }
+        main .container section .cards .card .detalle a {
+          background: #7857fa;
+          border-radius: 5px;
+          padding: 4px 8px;
+          color: #fff;
+          margin-bottom: 5px; }
+        main .container section .cards .card .detalle p {
+          margin-top: 10px;
+          color: #818185c7; }
+        main .container section .cards .card figure {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          flex-wrap: nowrap;
+          padding-top: initial;
+          width: 40%; }
+          main .container section .cards .card figure img {
+            background: #fff;
+            padding: 11px;
+            border-radius: 10px;
+            height: 100px;
+            width: 100px;
+            margin-bottom: 10px; }
+    main .container section .wrapper form .row .form-floating .form-control {
+      color: #7857fa;
+      height: calc(2.5rem + 2px); }
+      main .container section .wrapper form .row .form-floating .form-control:focus ~ label {
+        transform: scale(0.85) translateY(-1rem) translateX(0.15rem); }
+    main .container section .wrapper form .row .form-floating label {
+      padding: 0.7rem 1.75rem;
+      color: #1b225b87;
+      font-weight: bold; }
+    main .container section .wrapper form .row figure {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      flex-wrap: nowrap; }
+      main .container section .wrapper form .row figure img {
+        background: #fff;
+        padding: 11px;
+        border-radius: 10px;
+        height: 100px;
+        width: 100px;
+        margin-bottom: 10px; }
+      main .container section .wrapper form .row figure a {
+        color: #7857fa;
+        cursor: default; }
+    main .container section .wrapper form .row.buttons {
+      flex-direction: row-reverse; }
+      main .container section .wrapper form .row.buttons .col-md-4 input.btn {
+        background: #1b225b;
+        border-radius: 15px;
+        border: none;
+        color: #fff;
+        width: 100%;
+        transition: background linear 1s;
+        padding: 10px 0; }
+        main .container section .wrapper form .row.buttons .col-md-4 input.btn[type="submit"] {
+          background: linear-gradient(91deg, magenta 0.79%, #7857fa 80.69%);
+          box-shadow: 2px 2px 5px 2px #8000ff66; }
+          main .container section .wrapper form .row.buttons .col-md-4 input.btn[type="submit"]:hover {
+            background: linear-gradient(91deg, #7857fa 0.79%, magenta 80.69%); }
+        main .container section .wrapper form .row.buttons .col-md-4 input.btn[type="button"] {
+          background: #1b225b87; }
+          main .container section .wrapper form .row.buttons .col-md-4 input.btn[type="button"]:hover {
+            background: red; }
+        main .container section .wrapper form .row.buttons .col-md-4 input.btn:hover {
+          background: #1b225b87; }
+    main .container section.perfil {
+      align-items: center; }
+      main .container section.perfil .card {
+        flex-direction: column;
+        background: #f9fafb;
+        align-items: baseline;
+        max-width: 500px;
+        width: 100%;
+        max-height: initial;
+        padding: 10px 0;
+        border: none;
+        box-shadow: none; }
+        main .container section.perfil .card.user {
+          flex-wrap: nowrap;
+          flex-direction: row;
+          justify-content: flex-start;
+          align-items: center; }
+          main .container section.perfil .card.user figure {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 40%;
+            padding-top: 0; }
+            main .container section.perfil .card.user figure img {
+              width: 100px; }
+            main .container section.perfil .card.user figure span {
+              color: #1b225b87; }
+          main .container section.perfil .card.user .desc {
+            width: 60%; }
+            main .container section.perfil .card.user .desc h3 {
+              color: #1b225b; }
+            main .container section.perfil .card.user .desc span {
+              color: #1b225b87;
+              font-weight: bold; }
+        main .container section.perfil .card ul {
+          display: flex;
+          flex-direction: column;
+          gap: 1rem;
+          border-bottom: 4px solid #fff;
+          width: 100%;
+          padding-left: 0; }
+          main .container section.perfil .card ul li {
+            padding: 0 2rem;
+            font-weight: bold; }
+            main .container section.perfil .card ul li i {
+              color: #7857fa;
+              width: 50px;
+              transition: color 1s; }
+            main .container section.perfil .card ul li a {
+              color: #1b225b87;
+              transition: color 1s; }
+            main .container section.perfil .card ul li.sesion {
+              border-top: 4px solid #fff;
+              padding: 15px 2rem;
+              width: 100%;
+              transition: background 1s;
+              cursor: pointer; }
+              main .container section.perfil .card ul li.sesion:hover {
+                background: #c6bbf7;
+                color: #fff; }
+                main .container section.perfil .card ul li.sesion:hover i {
+                  color: #fff; }
+                main .container section.perfil .card ul li.sesion:hover a {
+                  color: #fff; }
+        main .container section.perfil .card input[type="button"] {
+          background: linear-gradient(91deg, magenta 0.79%, #7857fa 80.69%);
+          box-shadow: 2px 2px 5px 2px #8000ff66;
+          border-radius: 20px;
+          transition: background 1s;
+          color: #fff;
+          border: none;
+          width: 90%;
+          margin: 20px auto;
+          font-weight: bold;
+          padding: 10px 0; }
+          main .container section.perfil .card input[type="button"]:hover {
+            background: linear-gradient(91deg, #7857fa 0.79%, magenta 80.69%); }
+      main .container section.perfil .user_data {
+        width: 100%;
+        max-width: 500px; }
+        main .container section.perfil .user_data h3 {
+          color: #1b225b;
+          margin-bottom: 1rem;
+          padding-left: 2rem; }
+        main .container section.perfil .user_data .ipunts {
+          background: #f9fafb;
+          padding: 2rem;
+          border-radius: 20px;
+          margin-bottom: 1rem; }
+        main .container section.perfil .user_data .form-floating .form-control {
+          color: #1b225b87;
+          background: #f9fafb;
+          border: none;
+          height: calc(2.5rem + 2px); }
+          main .container section.perfil .user_data .form-floating .form-control:focus ~ label {
+            transform: scale(0.85) translateY(-1rem) translateX(0.15rem); }
+          main .container section.perfil .user_data .form-floating .form-control.pass {
+            padding-left: 2rem; }
+            main .container section.perfil .user_data .form-floating .form-control.pass ~ label {
+              padding: 0.3rem 2rem; }
+        main .container section.perfil .user_data .form-floating label {
+          padding: 0.3rem 0.75rem;
+          color: #1b225b;
+          font-weight: bold; }
+        main .container section.perfil .user_data input[type="submit"] {
+          background: linear-gradient(91deg, magenta 0.79%, #7857fa 80.69%);
+          box-shadow: 2px 2px 5px 2px #8000ff66;
+          width: 100%;
+          border: none;
+          border-radius: 20px;
+          color: #fff;
+          font-weight: bold;
+          transition: background 1s;
+          padding: 10px 0; }
+          main .container section.perfil .user_data input[type="submit"]:hover {
+            background: linear-gradient(91deg, #7857fa 0.79%, magenta 80.69%); }
+
+@media (min-width: 500px) {
+  main .container section .card .descript h2 {
+    font-size: 2.5pc !important; }
+  main .container section .card .descript h3 {
+    font-size: 2pc !important; }
+  main .container section .card .descript a {
+    font-size: 15px;
+    width: 130px; } }
+@media (min-width: 678px) {
+  main header {
+    padding: 10px 0; }
+  main .container section .card .descript h5 {
+    font-size: 4vw !important; }
+  main .container section .card .descript h2 {
+    font-size: 5vw !important; }
+  main .container section .card .descript h3 {
+    font-size: 4vw !important; }
+  main .container section .card .descript a {
+    width: 150px !important;
+    font-size: initial !important; }
+  main .container section .card figure {
+    padding-top: 10%; } }
+@media (min-width: 900px) {
+  main .container section .card figure {
+    padding-top: 0; } }
+
+/*# sourceMappingURL=main.css.map */
